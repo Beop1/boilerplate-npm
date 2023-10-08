@@ -1,6 +1,10 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Bernardo",
+	"dependencies": {
+	  "@freecodecamp/example": "1.1.0",
+	  "express": "^4.18.2"
+	},
 	"main": "server.js",
 	"scripts": {
 	  "start": "node server.js"
@@ -10,11 +14,7 @@
 	  "url": "https://idontknow/todo.git"
 	},
 	"description": "Project for the FreeCodeCamp tutorial",
-	"keywords": ["3rd challenge", "Node.js", "freecodecamp"],
+	"keywords": ["3rd challenge", "node.js", "freecodecamp"],
 	"license": "MIT",
-	"version": "123.23.222",
-	"dependencies": {
-	"@freecodecamp/example": "1.1.0",
-	"express": "4.14.0"
-	}
+	"version": "123.23.222"
   }
